@@ -1,0 +1,40 @@
+﻿빌드 시작: 2012-04-09 오후 6:13:34
+     1>2 노드의 "M:\Projects\Humpback Whale\Character_Animation\Character_Animation_v0_01\Character_Animation_v0_01.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Character_Animation_v0_01.unsuccessfulbuild"을(를) 만들고 있습니다.
+       CustomBuild:
+         Moc'ing mainwidget.h...
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include /I.\GeneratedFiles\Debug /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtCore /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtGui /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtMultimedia /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtXml /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtSql /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtOpenGL /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtNetwork /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtScript /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\Qt3Support /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\ActiveQt /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtSvg /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtHelp /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtWebKit /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtXmlPatterns /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtTest /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\QtDeclarative /IC:\QtSDK\Desktop\Qt\4.8.0\msvc2010\include\phonon /I.\ /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIA_LIB /D QT_XML_LIB /D QT_SQL_LIB /D QT_OPENGL_LIB /D QT_NETWORK_LIB /D QT_SCRIPT_LIB /D QT_QT3SUPPORT_LIB /D QT3_SUPPORT /D QAXSERVER /D QT_SVG_LIB /D QT_WEBKIT_LIB /D QT_XMLPATTERNS_LIB /D QT_DECLARATIVE_LIB /D QT_PHONON_LIB /D _MBCS /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt D3DRenderer.cpp GeneratedFiles\Debug\moc_mainwidget.cpp application.cpp mainwidget.cpp
+         D3DRenderer.cpp
+         moc_mainwidget.cpp
+         application.cpp
+         mainwidget.cpp
+         코드를 생성하고 있습니다...
+         모든 출력이 최신 상태입니다.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"M:\Projects\Humpback Whale\Character_Animation\\Character_Animation_v0_01.exe" /NOLOGO /LIBPATH:C:\QtSDK\Desktop\Qt\4.8.0\msvc2010\lib qtmaind.lib QtCored4.lib QtGuid4.lib QtMultimediad4.lib QtXmld4.lib QtSqld4.lib QtOpenGLd4.lib opengl32.lib glu32.lib QtNetworkd4.lib QtScriptd4.lib Qt3Supportd4.lib comdlg32.lib QAxServerd.lib QtSvgd4.lib QtHelpd4.lib QtWebKitd4.lib QtXmlPatternsd4.lib QtTestd4.lib QtDeclaratived4.lib phonond4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Character_Animation_v0_01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"M:\Projects\Humpback Whale\Character_Animation\Character_Animation_v0_01.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"M:\Projects\Humpback Whale\Character_Animation\Character_Animation_v0_01.lib" /MACHINE:X86 Debug\Character_Animation_v0_01.res
+         Debug\application.obj
+         Debug\ArcBall.obj
+         Debug\D3DRenderer.obj
+         Debug\general_arcball.obj
+         Debug\moc_application.obj
+         Debug\moc_mainwidget.obj
+         Debug\qrc_application.obj
+         Debug\main.obj
+         Debug\mainwidget.obj
+         Debug\mesh.obj
+     1>qtmaind.lib(qtmain_win.obj) : warning LNK4099: 'vc100.pdb' PDB를 'qtmaind.lib(qtmain_win.obj)' 또는 'M:\Projects\Humpback Whale\Character_Animation\vc100.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+         Character_Animation_v0_01.vcxproj -> M:\Projects\Humpback Whale\Character_Animation\Character_Animation_v0_01.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"M:\Projects\Humpback Whale\Character_Animation\\Character_Animation_v0_01.exe;#1" /manifest Debug\Character_Animation_v0_01.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\Character_Animation_v0_01.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Character_Animation_v0_01.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"M:\Projects\Humpback Whale\Character_Animation\Character_Animation_v0_01\Character_Animation_v0_01.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:13.83
