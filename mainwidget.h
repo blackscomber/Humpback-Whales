@@ -1,5 +1,4 @@
-#ifndef MAINWIDGET_H
-#define MAINWIDGET_H
+#pragma once
 
 #include <QWidget>
 #include <QtCore>
@@ -34,5 +33,3 @@ private:
 	
 	
 };
-
-#endif // MAINWIDGET_H
