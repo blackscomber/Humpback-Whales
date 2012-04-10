@@ -1,0 +1,27 @@
+﻿빌드 시작: 2012-04-07 오후 10:41:26
+     1>2 노드의 "M:\Examples\Arcball_glexample\Arcball_glexample.vcxproj" 프로젝트(rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "Debug\Arcball_glexample.lastbuildstate" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\Arcball_glexample.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ArcBall.cpp Lesson48.cpp NeHeGL.cpp
+         NeHeGL.cpp
+         Lesson48.cpp
+         ArcBall.cpp
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"M:\Projects\Humpback Whale\Character_Animation\Debug\Arcball_glexample.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Arcball_glexample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"M:\Projects\Humpback Whale\Character_Animation\Debug\Arcball_glexample.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"M:\Projects\Humpback Whale\Character_Animation\Debug\Arcball_glexample.lib" /MACHINE:X86 Debug\ArcBall.obj
+         Debug\Lesson48.obj
+         Debug\NeHeGL.obj
+         Arcball_glexample.vcxproj -> M:\Projects\Humpback Whale\Character_Animation\Debug\Arcball_glexample.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"M:\Projects\Humpback Whale\Character_Animation\Debug\Arcball_glexample.exe;#1" /manifest Debug\Arcball_glexample.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\Arcball_glexample.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Arcball_glexample.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"M:\Examples\Arcball_glexample\Arcball_glexample.vcxproj" 프로젝트를 빌드했습니다(rebuild 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:04.03

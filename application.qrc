@@ -1,6 +1,0 @@
-<RCC>
-    <qresource prefix="/application">
-        <file>Resources/FX/lighting.fx</file>
-        <file>Resources/meshes/soldier.X</file>
-    </qresource>
-</RCC>

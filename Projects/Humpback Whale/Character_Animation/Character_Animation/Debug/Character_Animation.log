@@ -1,0 +1,31 @@
+﻿빌드 시작: 2012-04-03 오후 4:21:15
+     1>3 노드의 "M:\Projects\Humpback Whale\Character_Animation\Character_Animation\Character_Animation.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Debug\Character_Animation.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mesh.cpp
+         mesh.cpp
+     1>m:\projects\humpback whale\character_animation\character_animation\mesh.cpp(51): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>m:\projects\humpback whale\character_animation\character_animation\mesh.cpp(52): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' 선언을 참조하십시오.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"M:\Projects\Humpback Whale\Character_Animation\Debug\Character_Animation.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Character_Animation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"M:\Projects\Humpback Whale\Character_Animation\Debug\Character_Animation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"M:\Projects\Humpback Whale\Character_Animation\Debug\Character_Animation.lib" /MACHINE:X86 Debug\Character_Animation.exe.embed.manifest.res
+         Debug\main.obj
+         Debug\mesh.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Character_Animation.exe.embed.manifest" /manifest Debug\Character_Animation.exe.intermediate.manifest
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         Character_Animation.vcxproj -> M:\Projects\Humpback Whale\Character_Animation\Debug\Character_Animation.exe
+       FinalizeBuildStatus:
+         "Debug\Character_Animation.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Character_Animation.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"M:\Projects\Humpback Whale\Character_Animation\Character_Animation\Character_Animation.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.10
